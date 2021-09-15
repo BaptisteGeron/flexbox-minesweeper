@@ -1,0 +1,160 @@
+/*CSS reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Structure*/
+body {
+    height: 100vh ;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.borderborder {
+    vertical-align: baseline;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(196, 196, 196);
+    background-color: rgb(196, 196, 196) ;
+}
+
+.border {
+    border-style: solid;
+    border-width: 10px;
+    border-top-color: rgb(148, 148, 148);
+    border-left-color: rgb(148, 148, 148);
+    border-bottom-color: rgb(214, 214, 214) ;
+    border-right-color: rgb(214, 214, 214);
+    background-color: rgb(201, 201, 201);
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.place {
+    border-right-style: dotted;
+    border-bottom-style: dotted ;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-color: black;
+    height:50px;
+    width: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.placehide {
+    border-right-style: solid;
+    border-bottom-style: solid ;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-color: black;
+    height:50px;
+    width: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.one {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.two {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.three {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.hidden {
+    background-color: rgb(184, 184, 184);
+    height: 50px;
+    width: 50px;
+    box-shadow: inset 3px 3px 0px rgb(228, 228, 228), inset -3px -3px 0px rgb(99, 99, 99);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.hidden:hover {
+    background-color: none;
+    box-shadow: none;
+}
+
